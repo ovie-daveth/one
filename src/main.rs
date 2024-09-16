@@ -1,5 +1,6 @@
 mod guessing;
 mod chpone;
+mod ownership;
 
 fn main() {
 
@@ -8,7 +9,8 @@ fn main() {
     // println!("the length {}", lenc);
 
     // guessing::guessing_game();
-    chpone::chpone();
+    // chpone::chpone();
+    ownership::owner();
     
 }
 
